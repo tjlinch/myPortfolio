@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <div>
-        <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+        <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <img src='https://img.icons8.com/ios-glyphs/344/beefburger.png' alt='Menu'></img>
+        </button>
 
         <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div className="offcanvas-header">
