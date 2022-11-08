@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <div className='navBar'>
        {/* fullscreen nav list */}
-        <div>
+        <div className='fullscreenNav'>
             <ul>
                 <Link to='/'>
                     <li className='list-group-item'>Home</li>
