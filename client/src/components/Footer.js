@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
+import icons8github from '../assets/icons8-github-50.png';
+import icons8linkedin from '../assets/icons8-linkedin-circled-48.png';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <a href='https://github.com/tjlinch' target='_blank' rel='noreferrer'>
+        <img src={icons8github} alt='github logo'></img>
+      </a>
+      <a href='https://www.linkedin.com/in/tjlinch47/' target='_blank' rel='noreferrer'>
+        <img src={icons8linkedin} alt='linkedin logo'></img>
+      </a>
+    </div>
   )
 }
 
