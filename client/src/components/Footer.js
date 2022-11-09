@@ -10,7 +10,7 @@ function Footer() {
         <img src={icons8github} alt='github logo'></img>
       </a>
       <a href='https://www.linkedin.com/in/tjlinch47/' target='_blank' rel='noreferrer'>
-        <img src={icons8linkedin} alt='linkedin logo'></img>
+        <img id='linkedin' src={icons8linkedin} alt='linkedin logo'></img>
       </a>
     </div>
   )
