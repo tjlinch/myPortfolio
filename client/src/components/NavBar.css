@@ -7,12 +7,14 @@
 
 .fullscreenNav li{
     display: inline;
-    margin-left: 10px;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
 }
 
 .offCanvasBtn {
     position: relative;
-    bottom: 32px;
+    bottom: 45px;
 }
 
 .offCanvasBtn img {
@@ -29,5 +31,11 @@
 @media screen and (max-width: 820px) {
     .fullscreenNav {
         display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .offCanvasBtn {
+        bottom: 29px;
     }
 }
