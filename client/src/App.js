@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
 
 export default function App() {
     return (
@@ -21,6 +23,14 @@ export default function App() {
                     <Route
                         path='/portfolio'
                         element={<Portfolio />}
+                    />
+                    <Route
+                        path='/about'
+                        element={<About />}
+                    />
+                    <Route
+                        path='/contact'
+                        element={<Contact />}
                     />
                 </Routes>
             </div>

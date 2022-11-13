@@ -4,3 +4,30 @@
     align-items: center;
     margin-right: 5%;
 }
+
+.fullscreenNav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.offCanvasBtn {
+    position: relative;
+    bottom: 32px;
+}
+
+.offCanvasBtn img {
+    height: 55px;
+    width: 55px;
+}
+
+@media screen and (min-width: 821px) {
+    .offCanvasBtn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .fullscreenNav {
+        display: none;
+    }
+}

@@ -15,11 +15,17 @@ function NavBar() {
                 <Link to='/portfolio'>
                     <li className='list-group-item'>Projects</li>
                 </Link>
+                <Link to='/about'>
+                    <li className='list-group-item'>About Me</li>
+                </Link>
+                <Link to='/contact'>
+                    <li className='list-group-item'>Contact</li>
+                </Link>
             </ul>
         </div>
         
         {/* mobile nav list in an offcanvas menu */}
-        <button className="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <button className="btn btn-light offCanvasBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
             {/* TODO: link to burger icon on references page */}
             {/* <a target="_blank" href="https://icons8.com/icon/95244/beef-burger">Beef Burger</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
             <img src={icons8Burger} alt='Nav menu'></img>
@@ -33,10 +39,16 @@ function NavBar() {
             <div className="offcanvas-body">
             <ul className='list-group'>
                 <Link to='/'>
-                    <li className='list-group-item'>Home</li>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Home</li>
                 </Link>
                 <Link to='/portfolio'>
-                    <li className='list-group-item'>Projects</li>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Projects</li>
+                </Link>
+                <Link to='/about'>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>About Me</li>
+                </Link>
+                <Link to='/contact'>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Contact</li>
                 </Link>
             </ul>
             </div>
