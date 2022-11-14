@@ -22,6 +22,11 @@
     width: 55px;
 }
 
+.offCanvasCloseBtn {
+    position: relative;
+    left: 90%;
+}
+
 @media screen and (min-width: 821px) {
     .offCanvasBtn {
         display: none;
