@@ -1,5 +1,5 @@
 .footer {
-    background-color: darkgray;
+    background: linear-gradient(black, grey);
     position: fixed;
     bottom: 0;
     width: 100%;

@@ -1,8 +1,12 @@
+.portfolio {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
 h3 {
     display: flex;
     justify-content: center;
-    margin: 20px;
     text-decoration: underline;
+    font-size: 40px;
 }
 
 .container {
@@ -19,9 +23,12 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-bottom: 65px;
+    box-shadow: 10px 5px 5px grey;
+    
 }
 
 .image {
     height: 150px;
     width: 180px;
+    margin-bottom: 2px;
 }

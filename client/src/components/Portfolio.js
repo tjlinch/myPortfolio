@@ -4,7 +4,7 @@ import projects from '../assets/json_files/projects.json';
 
 function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
       <h3>Portfolio</h3>
       <div className='container'>
         {projects.map((project) => (
