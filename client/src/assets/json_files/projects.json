@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Team Profile Generator",
+        "image": "https://github.com/tjlinch/teamProfileGenerator/raw/main/assets/images/Screen%20Shot%202022-10-09%20at%205.24.00%20PM.png",
+        "deployed": "https://drive.google.com/file/d/1OEpGSutko9daM1wwSm3_2xxY6Le5neJx/view",
+        "github": "https://github.com/tjlinch/teamProfileGenerator"
+    },
+    {
+        "id": 2,
+        "name": "BrewFinder",
+        "image": "https://github.com/relero90/brewfinder/raw/main/assets/images/app-screenshot.png",
+        "deployed": "https://relero90.github.io/brewfinder/",
+        "github": "https://github.com/relero90/brewfinder"
+    },
+    {
+        "id": 3,
+        "name": "Stud-Light",
+        "image": "https://github.com/dhealy83/stud-light/raw/main/client/public/Home.png",
+        "deployed": "https://stud-lite.herokuapp.com/",
+        "github": "https://github.com/dhealy83/stud-light"
+    },
+    {
+        "id": 4,
+        "name": "Random Password Generator",
+        "image": "https://github.com/tjlinch/randomPasswords/raw/main/assets/images/Screen%20Shot%202022-08-05%20at%209.16.54%20PM.png",
+        "deployed": "https://tjlinch.github.io/randomPasswords/",
+        "github": "https://github.com/tjlinch/randomPasswords"
+    },
+    {
+        "id": 5,
+        "name": "5 Cooks Kitchen",
+        "image": "https://github.com/kamarygillespie4/team-project-2/raw/main/public/images/localhost_3001_.png",
+        "deployed": "https://agile-shore-26692.herokuapp.com/",
+        "github": "https://github.com/kamarygillespie4/team-project-2"
+    },
+    {
+        "id": 6,
+        "name": "Express Note Taker",
+        "image": "https://github.com/tjlinch/expressNoteTaker/raw/main/assets/images/Screen%20Shot%202022-10-09%20at%206.02.46%20PM.png",
+        "deployed": "https://afternoon-coast-87392.herokuapp.com/",
+        "github": "https://github.com/tjlinch/expressNoteTaker"
+    },
+    {
+        "id": 7,
+        "name": "Front-End Weather App",
+        "image": "https://github.com/tjlinch/tjWeatherApp/raw/main/assets/images/Screen%20Shot%202022-08-20%20at%207.43.18%20PM.png",
+        "deployed": "https://tjlinch.github.io/tjWeatherApp/",
+        "github": "https://github.com/tjlinch/tjWeatherApp"
+    }
+]
