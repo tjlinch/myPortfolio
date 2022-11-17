@@ -2,3 +2,25 @@
     background: linear-gradient(#e66465, #9198e5);
     min-height: 85vh;
 }
+
+.contactInstructions {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.emailForm {
+    margin-left: 15%;
+}
+
+.emailForm input{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.messageInput {
+    height: 200px;
+}
+

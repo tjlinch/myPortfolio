@@ -16,6 +16,11 @@
     box-shadow: 10px 5px 5px grey;
 }
 
+.paragraphContainer {
+    border: solid 5px white;
+    border-radius: 10px;
+}
+
 .homeParagraph {
     display: flex;
     justify-content: center;
