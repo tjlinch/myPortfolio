@@ -1,4 +1,24 @@
 .about {
     background: linear-gradient(#e66465, #9198e5);
-    min-height: 85vh;
+    min-height: 100vh;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.about img {
+    height: 30%;
+    width: 30%;
+    margin: 20px;
+    border-radius: 5px;
 }
