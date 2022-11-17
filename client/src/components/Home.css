@@ -2,3 +2,39 @@
     background: linear-gradient(#e66465, #9198e5);
     min-height: 85vh;
 }
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.homePhoto {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.homeParagraph {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.technologiesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.techCard {
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.techImage {
+    height: 100px;
+    width: 100px;
+}

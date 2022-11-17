@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "image": "https://img.icons8.com/ios-filled/344/javascript-logo.png"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "image": "https://img.icons8.com/office/344/react.png"
+    },
+    {
+        "id": 3,
+        "name": "MongoDB",
+        "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+    },
+    {
+        "id": 4,
+        "name": "MySQL",
+        "image": "https://img.icons8.com/fluency/344/my-sql.png"
+    },
+    {
+        "id": 5,
+        "name": "Node.js",
+        "image": "https://img.icons8.com/fluency/512/node-js.png"
+    },
+    {
+        "id": 6,
+        "name": "GraphQL",
+        "image": "https://img.icons8.com/color/512/graphql.png"
+    }
+    
+]
