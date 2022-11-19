@@ -10,7 +10,7 @@ const About = () => {
         <p>Hi, my name is Tyler and I'm a 24 year old software developer based in Denver, Colorado. Though I've always had an interest, I started coding consistently in July of 2022. Since then, I have learned many new technologies, and continue to expand my knowledge of programming languages.</p>
       </div>
       <div className='row2'>
-        <p>I have spent most of my professional career working in the service industry, and I am now looking to make the jump into Software Development</p>
+        <p>I have spent most of my professional career working in the service industry, and I am now looking to make the jump into software development.</p>
         <img src='https://avatars.githubusercontent.com/u/109873828?v=4' alt='github profile'></img>
       </div>
       <div className='row1'>
