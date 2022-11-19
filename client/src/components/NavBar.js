@@ -9,7 +9,7 @@ function NavBar() {
        {/* fullscreen nav list */}
         <div className='fullscreenNav'>
             <ul>
-                <Link to='/'>
+                <Link to='/myPortfolio'>
                     <li className='list-group-item'>Home</li>
                 </Link>
                 <Link to='/portfolio'>
@@ -38,7 +38,7 @@ function NavBar() {
             </div>
             <div className="offcanvas-body">
             <ul className='list-group'>
-                <Link to='/'>
+                <Link to='/myPortfolio'>
                     <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Home</li>
                 </Link>
                 <Link to='/portfolio'>

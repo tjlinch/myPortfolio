@@ -17,7 +17,7 @@ export default function App() {
             <div>
                 <Routes>
                     <Route
-                        path='/'
+                        path='/myPortfolio'
                         element={<Home />}
                     />
                     <Route
